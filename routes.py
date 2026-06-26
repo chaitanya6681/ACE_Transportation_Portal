@@ -17,8 +17,3 @@ def display_busdetails(bus_dict):
     print("Bus details:")
     for i in bus_dict:
         print(i,":",bus_dict[i])
-
-
-display_busdetails(bus_fleet)
-add_stop(route1_stops,"KPHB")
-display_routestops(route1_stops)
